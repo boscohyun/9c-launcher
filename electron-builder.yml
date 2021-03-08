@@ -8,9 +8,10 @@ win:
     - target: "nsis"
       arch:
         - "x64"
-  icon: "app.ico"
+  icon: "logo-launcher.ico"
 mac:
-  icon: "AppIcon.icns"
+  target: "dmg"
+  icon: "logo-launcher.icns"
 publish:
   - provider: "generic"
     url: "https://9c-test.s3.ap-northeast-2.amazonaws.com/electron-builder-test/"
